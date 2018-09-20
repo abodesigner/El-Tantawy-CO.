@@ -1,0 +1,455 @@
+/* Add OpenSans Font */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Wendy One";
+  src: url("../fonts/Wendy_One/WendyOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Concert One";
+  src: url("../fonts/Concert_One/ConcertOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Boogaloo";
+  src: url("../fonts/Boogaloo/Boogaloo-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-Regular.ttf") format('truetype');
+}
+
+
+@font-face {
+  font-family: "Fjalla One";
+  src: url("../fonts/Fjalla_One/FjallaOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Luckiest Guy";
+  src: url("../fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Harmattan";
+  src: url("../fonts/Harmattan/Harmattan-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../fonts/Tajawal/Tajawal-Regular.ttf") format('truetype');
+}
+
+
+/* Start Navbar */
+.navbar-inverse .navbar-nav>li>a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background: 0
+}
+
+ .support a.arabic{
+    background-color: #f00;
+    width:60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    top:0;
+    right:15px;
+    z-index: 9999;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    transition: padding 0.5s ease-in-out;
+}
+
+.support a.arabic:hover{padding: 5px}
+
+/* End Navbar */
+
+
+/* Start Slider */
+#slider{
+	padding-top: 10px
+}
+/* End Slider */
+/* Start change the Carousel fade effect */
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+/* End change the Carousel fade effect */
+
+.carousel-caption{
+	bottom: 100px;
+	background-color: rgba(100,50,10,0.7);
+	border-radius: 15px
+}
+
+.carousel-caption h1{
+	font-size: 72px;
+	font-family: 'Concert One', cursive;
+}
+
+.carousel-caption h2{
+	font-size: 72px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/* Start About Section */
+#about{
+	min-height: 900px;
+	background-color: #f8f8f8;
+	padding-top: 20px;
+
+}
+
+/*#about .row{
+	margin-bottom: 20px
+}*/
+
+
+#about .row{margin-bottom: 50px}
+
+#about .contBlock{
+	background-color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #dedede;
+    border-radius: 10px 10px 0 0
+}
+
+#about .contBlock hr{
+	width: 10%;
+	margin-top: 15px;
+    margin-bottom: 15px;
+    border: 20px;
+    border-top: 2px solid #888888
+}
+
+
+
+
+#about .contBlock h2{font-family: 'Luckiest Guy', cursive;text-align: center}
+
+#about .contBlock h2.who{color: #000}
+
+#about .contBlock h2.why{color:#333 }
+
+#about .contBlock h2.why small{
+	font-family: 'Raleway', sans-serif;
+	color: #025E78;
+	font-size: 16px;
+	font-weight: bold
+}
+
+#about .contBlock h2.vision{color: #333}
+
+#about .imgBlock img{border-radius: 10px}
+
+#about .contBlock ul li{
+	margin: 0 0 10px 0;
+}
+
+#about .contBlock p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+}
+/* End About Section */
+
+/* Start Projects Section */
+#projects{
+	background: url('../images/proj-bg.jpg') no-repeat center center;
+  background-size: cover;
+	min-height: 500px
+}
+
+#projects h1{
+	margin: 0 0 30px 0;
+	padding-top: 80px;
+	font-family: 'Wendy One', sans-serif;
+	color: #fff
+}
+
+#projects .ourprojects .proj h4{font-family: 'Open Sans', sans-serif}
+
+#projects .ourprojects .proj p{
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+}
+
+#projects .ourprojects .proj{
+	background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #b0b0b0;
+  border-bottom: 2px solid #333;
+  margin-bottom: 5px
+}
+
+#projects .ourprojects .proj span{
+	text-transform: uppercase;
+	border:1px solid #333;
+	border-radius: 15px;
+	padding: 5px 10px;
+	-webkit-transition:background-color 0.5s ease-in-out;
+	-moz-transition:background-color 0.5s ease-in-out;
+	-o-transition:background-color 0.5s ease-in-out;
+	transition:background-color 0.5s ease-in-out;
+}
+
+#projects .ourprojects .proj span:hover{background-color: #E88F02}
+
+#projects .ourprojects .proj span a{color: #333;font-family: 'Raleway', sans-serif;font-size: 13px;font-weight: bold}
+
+#projects .ourprojects .proj span a:hover{text-decoration: none}
+/* End Projects Section */
+
+
+/* Start Animated Options */
+#about .contBlock {
+  -vendor-animation-duration: 6s;
+  -vendor-animation-delay: 4s;
+  -vendor-animation-iteration-count: infinite;
+}
+/* End Animated Options */
+
+/* Start Contact Form */
+#contact{
+	padding-top: 70px;
+	background: url('../images/contact-bg.jpg') no-repeat center center;
+  background-size: cover;
+	min-height: 600px;
+}
+
+#contact h1{
+	font-size: 72px;
+	color: #f8f8f8;
+	margin-bottom: 50px;
+	font-family: 'Wendy One', sans-serif;
+	font-weight: bold;
+}
+
+#contact .contact-form .form-group .form-control,
+#contact .contact-form .form-group .input-group .form-control{background-color: transparent}
+
+#contact .contact-form .custom-alert{
+  padding: 5px 10px;
+  display: none;
+  margin-top: 10px
+}
+
+#contact .contact-form .form-group:nth-child(1) span.astrixs{
+      font-size: 2rem;
+      color: red;
+      position: absolute;
+      right: 20px;
+      top: 25px;
+}
+
+
+#contact .contact-form .form-group:nth-child(2) span.astrixs{
+      font-size: 2rem;
+      color: red;
+      position: absolute;
+      right: 20px;
+      top: 100px;
+}
+
+#contact .contact-form .form-group:nth-child(3) span.astrixs{
+      font-size: 2rem;
+      color: red;
+      position: absolute;
+      right: 20px;
+      top: 173px;
+}
+
+#contact .contact-form .form-group .form-control{color: #f3e44a}
+
+#contact h1 small {
+font-size: 20px;
+color: #f3e32b;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+}
+
+#contact legend,#contact .address{color: #fff;font-family: 'Open Sans', sans-serif}
+
+#contact .address .email{color:#f3e32b }
+
+#contact .address .email:hover{text-decoration: none}
+
+#contact label{color: #fff}
+
+#contact .btn-warning{background-color:#333}
+
+input::-webkit-input-placeholder{color:#fff !important}
+/* End Contact Form */
+
+/* Start Clients Section */
+#clients{background: url('../images/clients-bg.jpg') no-repeat center center; background-size: cover;padding: 50px 0}
+
+#clients h1{font-family: 'Wendy One', sans-serif;margin-bottom: 50px;color: #fff}
+
+#clients img.img-responsive{
+	border-radius: 50%;
+	opacity: 0.5;
+	-webkit-transition:opacity 0.5s ease-in-out;
+	-moz-transition:opacity 0.5s ease-in-out;
+	-o-transition:opacity 0.5s ease-in-out;
+	transition:opacity 0.5s ease-in-out;
+}
+
+#clients .img-responsive:hover{opacity: 1}
+/* End Clients Section */
+
+/* Start Footer */
+footer{
+	background: url('../images/footer-bg.jpg') no-repeat center center;
+  background-size: cover;
+	min-height: 100px;
+	color: #fff;
+}
+
+footer h5{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	line-height: 50px
+}
+
+footer .links{margin: 40px 0}
+
+footer .links ul{padding-left: 0}
+
+footer .links ul li{list-style-type: none;text-decoration: none}
+
+footer .links ul li a{color: #ccc}
+
+footer .links ul li a:hover{color: #fff;text-decoration: none;}
+
+footer .social ul li{
+	list-style-type: none;
+	display: inline-block;
+	border-right: 1px solid #444;
+	padding: 0 5px
+}
+
+footer .social ul li:last-of-type{border-right:none}
+
+footer .links ul li a #fb,footer .links ul li a #tw,footer .links ul li a #yt,
+footer .links ul li a #inst,footer .links ul li a #g,footer .links ul li a #whatsapp{
+  opacity: 0.5;
+  color:#fff;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+}
+
+footer .links #whatsapp,#fb,#tw,#yt,#inst{height: 30px;vertical-align: middle}
+
+footer .links ul li a #whatsapp:hover{
+  color: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+}
+footer .links ul li a #fb:hover{
+  color: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+footer .links ul li a #tw:hover{
+  color: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+footer .links ul li a #yt:hover{
+  color: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+footer .links ul li a #inst:hover{
+  color: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+footer .contacts{padding: 10px;margin-top: 20px;border-top: 1px solid #4d4d4d}
+
+footer .bottomLinks ul li{display: inline-block;}
+/* End Footer */
+
+/* Start Style Agriculture.html Page */
+body{background-color: #eee}
+
+header{padding-top: 50px;margin-bottom: 20px}
+
+#content p{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0px 2px 5px grey;
+
+}
+/*#content .categories .type img.img-responsive{}*/
+
+#content .categories h2{font-family: 'Wendy One', sans-serif}
+/* End Style Agriculture.html Page */

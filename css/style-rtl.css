@@ -1,0 +1,44 @@
+
+/* Start Language */
+.support a.english{
+    background-color: #f00;
+    width:60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    top:0;
+    left:15px;
+    z-index: 9999;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    transition: padding 0.5s ease-in-out;
+}
+
+.support a.english:hover{padding: 5px}
+/* End Language */
+
+.carousel-caption h1,.carousel-caption h2,
+.navbar-inverse .navbar-nav>li>a{font-family: 'Tajawal', sans-serif}
+
+#about .contBlock h2{
+  font-family: 'Tajawal', sans-serif
+}
+
+#projects h1{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+}
+font-family: 'Tajawal', sans-serif
+#contact h1,#contact h1 small{
+}
+
+footer .links ul{
+  padding-right: 0
+}
+
+footer h5,footer .links ul li a{
+  font-family: 'Tajawal', sans-serif;
+}

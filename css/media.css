@@ -1,0 +1,45 @@
+/* Extra-Small Screen - Phones */
+@media (max-width: 767px) {
+
+/* Start Carousel */
+.carousel-caption{bottom: 60px}
+.carousel-caption h1,.carousel-caption h2{font-size: 20px}
+/* End Carousel */
+
+/* Start About */
+#about .contBlock h2.who{font-size: 30px}
+#about .contBlock{padding: 0 10px}
+#about .row{margin-bottom: 15px}
+#about .contBlock h2.why small{font-size: 13px}
+/* End About */
+
+/* Strat Projects */
+#projects .ourprojects .proj{border: 0;border-radius: 5px}
+/* End Projects */
+
+/* Start Contact */
+#contact{padding-top: 40px}
+#contact h1{font-size: 30px;margin-bottom: 10px}
+#contact h1 small{font-size: 13px}
+/* End Contact */
+
+/* Start Clients */
+#clients .img-responsive{margin:0 auto;margin-bottom: 10px}
+#clients h1{margin-bottom: 15px}
+/* End Clients */
+
+/* Start Footer */
+footer{text-align: center;}
+footer .links ul li.fisrt-of-type{display: block;}
+footer .links ul li.social{display: inline-block;padding: 5px}
+/* End Footer */
+
+}
+/* Small Screen - Tablets */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px){}
+/* Large Screen */
+@media (min-width: 1200px){}
